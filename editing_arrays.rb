@@ -10,13 +10,13 @@ def change_rainbow_colors
   RAINBOW_COLORS[2] = "light_yellow"
   return RAINBOW_COLORS
 end
-puts change_rainbow_colors
+# puts change_rainbow_colors
 
 
 def add_colors
-  change_rainbow_colors.push("green")
-  change_rainbow_colors.push("blue")
+  RAINBOW_COLORS.push("green")
+  RAINBOW_COLORS.push("blue")
   return RAINBOW_COLORS
 end
-puts add_colors
+# puts add_colors
   
